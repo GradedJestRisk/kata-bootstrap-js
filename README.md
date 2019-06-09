@@ -1,4 +1,6 @@
 # Install
+`git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git`
+`cd kata-bootstrap-js`
 `npm init --yes`
 
 # Launch test
@@ -6,5 +8,5 @@
 `npm t`
 
 # Reinstall
-delete node_modules folder
+`rm -rf node_modules`
 `npm init --yes`
