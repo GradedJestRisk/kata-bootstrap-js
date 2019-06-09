@@ -1,7 +1,7 @@
 {
   "name": "kata-bootstrap-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bootstrap project for JavaScript kata`",
   "scripts": {
     "test": "jest --colors"
   },
@@ -23,5 +23,15 @@
   },
   "comments": {
     "scripts": "--colors is for GitBash"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GradedJestRisk/kata-bootstrap-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/GradedJestRisk/kata-bootstrap-js/issues"
+  },
+  "homepage": "https://github.com/GradedJestRisk/kata-bootstrap-js#readme"
 }

@@ -1,9 +1,10 @@
-# Start up!
+# Install
+`npm init --yes`
 
-## Launch test
+# Launch test
+## Command-line, GitBash
+`npm t`
 
-`npm test`
-
-## Tips
-
-`npm init && npm i -DE jest && jest --init`
+# Reinstall
+delete node_modules folder
+`npm init --yes`
