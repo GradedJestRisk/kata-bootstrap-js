@@ -1,11 +1,11 @@
 {
-  "name": "startup",
+  "name": "kata-bootstrap-js",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest --colors"
   },
-  "author": "Baptiste Lecocq <baptiste.lecocq@gmail.com> (https://tiste.io)",
+  "author": "Graded Jest Risk <graded.jest.risk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "husky": "1.2.0",
@@ -20,5 +20,8 @@
     "coverageDirectory": "coverage",
     "testEnvironment": "node",
     "resetMocks": true
+  },
+  "comments": {
+    "scripts": "--colors is for GitBash"
   }
 }
