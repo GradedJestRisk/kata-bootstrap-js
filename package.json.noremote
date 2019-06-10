@@ -1,0 +1,32 @@
+{
+  "name": "kata-bootstrap-js",
+  "version": "1.0.0",
+  "description": "Bootstrap project for JavaScript kata`",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "author": "Graded Jest Risk <graded.jest.risk@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "1.2.0",
+    "jest": "23.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  },
+  "jest": {
+    "coverageDirectory": "coverage",
+    "testEnvironment": "node",
+    "resetMocks": true
+  },
+  "comments": {
+    "scripts": "--colors is for GitBash"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "main": "index.js",
+  "keywords": []
+}
