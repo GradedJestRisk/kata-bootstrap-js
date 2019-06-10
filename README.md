@@ -10,11 +10,13 @@ Steps
 Steps
 * `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git` kataName
 * `cd kataName`
-* manage to remove git repository from package.json (or do not push)
+* remove the remote : `git remote rm origin`
+*  `mv package.json.norepo mv package.json`
 * `npm init --yes`
 * `npm install`
 * open your IDE and create a workspace
 * change test expectation, check Jest show a failed test 
+* stage and commit a change
 
 # Launch test
 ## Command-line, GitBash
