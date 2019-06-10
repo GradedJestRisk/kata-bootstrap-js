@@ -1,30 +1,27 @@
-# Install
-## To change template
+# Change template
+
 Steps
 * `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git`
 * `cd kata-bootstrap-js`
-* `npm init --yes`
 * `npm install`
 
-## To do a kata
-### Init
-* `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git kataName` 
-* `./kataName/init_kata.sh ` (doing the following)
-  * remove git to push to the remote : `git remote rm origin`
-  * prevent npm to push to remote:  `mv package.json.noremote package.json`
-  * `npm install`
+# Do a kata
 
-### IDE (vscode)
+## Init (any shell, included GitBash)
+* `kataName=KATA_NAME`
+* `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git $kataName && cd $kataName && ./init_kata.sh` 
+
+## IDE (vscode)
 * open your IDE 
-* change test expectation, check Jest show a failed test 
-* stage and commit the package.json change
-* try to push, should get "Your repository has no remotes configured to push to."
+* test Jest
+  * change test expectation
+  * check Jest show a failed test 
+* test source control
+  * stage and commit the package.json change
+  * try to push, should get "Your repository has no remotes configured to push to."
 
-# Launch test
-## Command-line, GitBash
+## Launch test (if IDE extension fails)
 `npm t`
 
-# Reinstall
-Steps
-* `rm -rf node_modules`
-* `npm init --yes`
+## Reinstall
+From kata folder, run  `./init_kata.sh`
