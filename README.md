@@ -11,7 +11,7 @@ Steps
 * `kataName=KATA_NAME`
 * `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git $kataName && cd $kataName && ./init_kata.sh` 
 
-## IDE (vscode)
+## Test IDE (vscode)
 * open your IDE 
 * test Jest
   * change test expectation
@@ -20,7 +20,7 @@ Steps
   * stage and commit the package.json change
   * try to push, should get "Your repository has no remotes configured to push to."
 
-## Launch test (if IDE extension fails)
+## Launch tests (if IDE extension fails)
 `npm t`
 
 ## Reinstall
