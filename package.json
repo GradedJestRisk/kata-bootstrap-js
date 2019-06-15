@@ -8,7 +8,7 @@
   "author": "Graded Jest Risk <graded.jest.risk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": " 2.4.1",
+    "husky": "2.4.1",
     "jest": "24.8.0"
   },
   "husky": {
