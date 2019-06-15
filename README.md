@@ -10,7 +10,7 @@ Steps
 ## Init (any shell, included GitBash)
 * `kataName=KATA_NAME`
 * `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git $kataName && cd $kataName && ./init_kata.sh` 
-
+* TDO: add coe . to sh
 ## Test IDE (vscode)
 * open your IDE 
 * test Jest
