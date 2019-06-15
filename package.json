@@ -8,12 +8,11 @@
   "author": "Graded Jest Risk <graded.jest.risk@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "husky": "1.2.0",
-    "jest": "23.6.0"
+    "husky": " 2.4.1",
+    "jest": "24.8.0"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test",
       "pre-push": "npm test"
     }
   },
@@ -25,14 +24,9 @@
   "comments": {
     "scripts": "--colors is for GitBash"
   },
-  "main": "index.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GradedJestRisk/kata-bootstrap-js.git"
+    "type": "git"
   },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/GradedJestRisk/kata-bootstrap-js/issues"
-  },
-  "homepage": "https://github.com/GradedJestRisk/kata-bootstrap-js#readme"
+  "main": "index.js",
+  "keywords": []
 }
