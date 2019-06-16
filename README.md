@@ -8,16 +8,19 @@ Steps
 # Do a kata
 
 ## Init (any shell, included GitBash)
-* `kataName=KATA_NAME`
-* `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git $kataName && cd $kataName && ./init_kata.sh` 
-* TDO: add coe . to sh
-## Test IDE (vscode)
-* open your IDE 
+* one-liner
+  * download [createKata.sh](https://github.com/GradedJestRisk/kata-bootstrap-js/blob/master/createKata.sh)
+  * execute `./createKata.sh <KATA_NAME>`, eg `./createKata.sh mars-rover`
+* two-liner
+  * `kataName=KATA_NAME`
+  * `git clone https://github.com/GradedJestRisk/kata-bootstrap-js.git $kataName && cd $kataName && ./init_kata.sh` 
+
+## Test Jest
 * test Jest
   * change test expectation
   * check Jest show a failed test 
 * test source control
-  * stage and commit the package.json change
+  * stage and commit a change
   * try to push, should get "Your repository has no remotes configured to push to."
 
 ## Launch tests (if IDE extension fails)
