@@ -15,8 +15,7 @@
     // check this out : == =>   (may require restart)
 
     // Format
-    //"editor.formatOnPaste": true, 
-    //"editor.formatOnSave": true,
+    "editor.formatOnType": true,
 
     // Explorer
     "explorer.sortOrder": "type",
